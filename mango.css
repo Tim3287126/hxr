@@ -407,6 +407,7 @@ pre.w-code-block code {
     right: 12px !important;
     overflow: visible !important;
     transform: none !important;
+    visibility: hidden !important; /* 水浮印 */
 }
 
 .w-webflow-badge>img {
@@ -2201,6 +2202,7 @@ textarea.w-select {
     background-repeat: no-repeat;
     background-size: cover;
     border-color: #3898ec;
+    visibility: hidden;
 }
 
 .w-checkbox-input--inputType-custom.w--redirected-focus {
@@ -4189,6 +4191,7 @@ figcaption {
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
+    visibility: hidden;
 }
 
 .white-link:hover {
@@ -5448,7 +5451,8 @@ figcaption {
 
 .photo-overlay {
     opacity: .21;
-    background-image: url("https://assets-global.website-files.com/653f8634e29884c4055f31a1/653fb35dd9604917afd50084_photo-1.jpg");
+    background-image: url("images/主頁芒果圖片.avif");
+    /* 主頁圖片 */
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5480,6 +5484,8 @@ figcaption {
     display: flex;
     position: relative;
     overflow: hidden;
+    visibility: hidden; 
+    /* 右上橘色標誌 */
 }
 
 .button-text-wrapper {
@@ -5499,6 +5505,7 @@ figcaption {
     min-height: 1.9rem;
     font-weight: 600;
     line-height: 1.7;
+    
 }
 
 .button-background {
@@ -5791,6 +5798,7 @@ figcaption {
     left: auto;
     right: 20px;
     box-shadow: 0 12px 28px rgba(0, 0, 0, .14);
+    visibility: hidden; /* 右下大的浮水印 */
 }
 
 .loader-badge {
